@@ -62,12 +62,13 @@ interface Application extends Container
     public function resourcePath($path = '');
 
     /**
-     * Get the path to the storage directory.
+     * Get the path to the 
+     directory.
      *
      * @param  string  $path
      * @return string
      */
-    public function storagePath($path = '');
+    public function storagePath();
 
     /**
      * Get or check the current application environment.
